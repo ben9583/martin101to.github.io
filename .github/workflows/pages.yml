@@ -29,23 +29,20 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    env:
-      NODE_ENV: production
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          submodules: recursive
+          cache: 'npm'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v1
       - name: Install Packages
         run: |
-          npm i
+          npm install
       - name: Build with NodeJS
         run: |
           npm run build

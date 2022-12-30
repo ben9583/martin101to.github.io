@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.js'
 import Navbar from './components/navbar'
-import { HashRouter as Router, Routes, Route }
+import { BrowserRouter as Router, Routes, Route }
   from 'react-router-dom'
 import Home from './pages'
 import About from './pages/about'
@@ -12,7 +12,7 @@ import Projects from './pages/projects'
 
 function App () {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Routes>
         <Route exact path='/' element={<Home />} />
@@ -22,6 +22,7 @@ function App () {
         <Route path='/toolbox' element={<Toolbox/>} />
         <Route path='/projects' element = {<Projects/>}/>
       </Routes>
+
     </Router>
   )
 }

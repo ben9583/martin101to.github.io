@@ -43,6 +43,9 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v1
+      - name: Install Husky
+        run: |
+          npm i -g husky@8
       - name: Install Packages
         run: |
           npm i

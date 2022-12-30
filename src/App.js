@@ -1,17 +1,17 @@
-import React from 'react';
-import './index.js';
-import Navbar from './components/navbar';
-import { BrowserRouter as Router, Routes, Route}
-    from 'react-router-dom';
-import Home from './pages';
-import About from './pages/about';
-import Blog from './pages/blog';
-import Contact from './pages/contact';
-import Toolbox from './pages/toolbox';
-import Projects from './pages/projects';
-  
-function App() {
-return (
+import React from 'react'
+import './index.js'
+import Navbar from './components/navbar'
+import { BrowserRouter as Router, Routes, Route }
+  from 'react-router-dom'
+import Home from './pages'
+import About from './pages/about'
+import Blog from './pages/blog'
+import Contact from './pages/contact'
+import Toolbox from './pages/toolbox'
+import Projects from './pages/projects'
+
+function App () {
+  return (
     <Router>
     <Navbar />
     <Routes>
@@ -23,7 +23,7 @@ return (
         <Route path='/projects' element = {<Projects/>}/>
     </Routes>
     </Router>
-);
+  )
 }
-  
-export default App;
+
+export default App

@@ -8,6 +8,7 @@ import About from './pages/about';
 import Blog from './pages/blog';
 import Contact from './pages/contact';
 import Toolbox from './pages/toolbox';
+import Projects from './pages/projects';
   
 function App() {
 return (
@@ -19,6 +20,7 @@ return (
         <Route path='/contact' element={<Contact/>} />
         <Route path='/blog' element={<Blog/>} />
         <Route path='/toolbox' element={<Toolbox/>} />
+        <Route path='/projects' element = {<Projects/>}/>
     </Routes>
     </Router>
 );

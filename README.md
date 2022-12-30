@@ -29,8 +29,4 @@ To make a production-ready build, run the following:
 npm run build
 ```
 
-You can deploy to github pages using the `gh-pages` command, or by using the npm script:
-
-```sh
-npm run deploy
-```
+Deployments will be made automatically when a push is made to master.

@@ -1,0 +1,18 @@
+h1{
+    color: maroon;
+    font-family: sans-serif;
+
+}
+
+.Home {
+    color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Portrait {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

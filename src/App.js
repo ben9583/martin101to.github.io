@@ -22,7 +22,6 @@ function App () {
         <Route path='/toolbox' element={<Toolbox/>} />
         <Route path='/projects' element = {<Projects/>}/>
       </Switch>
-
     </Router>
   )
 }

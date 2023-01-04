@@ -8,13 +8,23 @@ p {
 	text-decoration: none;
 }
 
+/* Section below contains the formatting for specific classNames*/
+.PageTitle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: red;
+	margin-top: 2vw;
+}
+
 .Portrait {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 5vw;
 }
 
+/* Section below contains the formatting for specific ids */
 #kevin-img {
     height: 300px;
     width: auto;
@@ -38,6 +48,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+	text-align: center;
 }
 
 #links {
@@ -47,4 +58,13 @@ p {
 	align-items: center;
 	text-decoration: none;
 	
+}
+
+#project-holder {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1vw;
+	width: auto;
+	height: 100%;
 }

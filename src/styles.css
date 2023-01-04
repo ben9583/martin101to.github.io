@@ -1,18 +1,26 @@
 h1{
-    color: maroon;
+    color: red;
     font-family: sans-serif;
 
-}
-
-.Home {
-    color: maroon;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .Portrait {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+#home-page {
+    color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kevin-img {
+    height: 250px;
+    width: auto;
+    
+    object-fit:cover;
 }

@@ -4,11 +4,11 @@ import '../styles.css'
 const Home = () => {
   return (
     <>
-      <div className="Home">
+      <div id="home-page">
         <h1> Future site of Martin101TO</h1>
       </div>
       <div className="Portrait">
-        <img src='../public/kevin.jpg' alt='Kevin Li' />
+        <img id='kevin-img' src={'kevin.jpg'} alt='Kevin Li' />
       </div>
     </>
   )

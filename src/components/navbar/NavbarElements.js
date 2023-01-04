@@ -14,7 +14,7 @@ export const Nav = styled.nav`
 export const NavLink = styled(Link)`
   color: #FF0000;
   font-size: 24px;
-  font-family: sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
   align-items: center;
   text-decoration: none;

@@ -9,6 +9,7 @@ import Blog from './pages/blog'
 import Contact from './pages/contact'
 import Toolbox from './pages/toolbox'
 import Projects from './pages/projects'
+import Copyright from './components/copyright'
 
 function App () {
   return (
@@ -22,6 +23,7 @@ function App () {
         <Route path='/blog' element={<Blog/>} />
         <Route path='/toolbox' element={<Toolbox/>} />
       </Routes>
+      <Copyright />
     </Router>
   )
 }

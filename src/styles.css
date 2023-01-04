@@ -1,7 +1,11 @@
-h1{
-    color: red;
-    font-family: sans-serif;
+a {
+	margin: 5px;
+	color: red;
+}
 
+p {
+    margin: 0.25em;
+	text-decoration: none;
 }
 
 .Portrait {
@@ -11,16 +15,36 @@ h1{
     
 }
 
+#kevin-img {
+    height: 300px;
+    width: auto;
+    border-radius: 75%;
+    object-fit:cover;
+}
+
 #home-page {
-    color: maroon;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#kevin-img {
-    height: 250px;
-    width: auto;
-    
-    object-fit:cover;
+#brief {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#links {
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.js'
 import Navbar from './components/navbar'
-import { BrowserRouter as Router, Switch, Route }
+import { BrowserRouter as Router, Routes, Route }
   from 'react-router-dom'
 import Home from './pages'
 import About from './pages/about'
@@ -14,14 +14,14 @@ function App () {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
-      <Switch>
+      <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='/about' element={<About/>} />
+        <Route path='/projects' element={<Projects/>} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/blog' element={<Blog/>} />
         <Route path='/toolbox' element={<Toolbox/>} />
-        <Route path='/projects' element = {<Projects/>}/>
-      </Switch>
+      </Routes>
     </Router>
   )
 }

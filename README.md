@@ -1,6 +1,6 @@
 # Website for Martin101_TO
 
-This repository is for Martin101_TO website. It runs using React and `create-react-app` and deploys using Github Pages. Livelink: [martin101to.com] (https://martin101to.com/).
+This repository is for Martin101_TO website. It runs using React and `create-react-app` and deploys using Github Pages. Livelink: https://martin101to.com/.
 
 # Setup
 

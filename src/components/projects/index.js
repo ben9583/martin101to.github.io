@@ -1,12 +1,18 @@
 import React from 'react'
 import { Proj } from './ProjectElements'
 
-const Project = () => {
+function Project (props) {
   return (
     <>
       <Proj>
-        <div>
-          Project Holder
+        <div className='ProjectTitle'>
+          Project Title
+        </div>
+        <div className='ProjectContent'>
+          Project Content
+        </div>
+        <div className='ProjectLink'>
+          Project Links
         </div>
       </Proj>
     </>

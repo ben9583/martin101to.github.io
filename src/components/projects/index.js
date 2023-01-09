@@ -1,21 +1,11 @@
 import React from 'react'
-import { Proj } from './ProjectElements'
+import { Proj, ProjectContent } from './ProjectElements'
 
-function Project (props) {
+function Project () {
   return (
-    <>
-      <Proj>
-        <div className='ProjectTitle'>
-          Project Title
-        </div>
-        <div className='ProjectContent'>
-          Project Content
-        </div>
-        <div className='ProjectLink'>
-          Project Links
-        </div>
-      </Proj>
-    </>
+    <Proj>
+      <ProjectContent/>
+    </Proj>
   )
 }
 

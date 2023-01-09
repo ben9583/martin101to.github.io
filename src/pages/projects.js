@@ -1,7 +1,7 @@
 import React from 'react'
 import Project from '../components/projects'
 
-const Projects = () => {
+function Projects () {
   return (
     <>
       <div className='PageTitle'>

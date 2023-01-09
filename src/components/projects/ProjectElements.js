@@ -7,3 +7,11 @@ export const Proj = styled.div`
   margin: 2vw;
   float: left;
 `
+
+export const ProjectTitle = styled.div`
+
+`
+
+export const ProjectContent = styled.div`
+
+`

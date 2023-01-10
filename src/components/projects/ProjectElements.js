@@ -7,6 +7,6 @@ export const Proj = styled.div`
   margin: 2vw;
   padding: 20px;
   display: flex;
-  align-items: top;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 `

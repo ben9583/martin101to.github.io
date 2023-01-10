@@ -19,6 +19,7 @@ body {
 	justify-content: center;
 	align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
 	color: #EB1D36;
 	margin-top: 2vw;
 }
@@ -36,12 +37,15 @@ body {
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #E70000;
+    order: 0;
+    margin-bottom: 20px;
 }
 
 .ProjectContent{
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #E70000;
+    order: 1;
 }
 
 /* Section below contains the formatting for specific ids */

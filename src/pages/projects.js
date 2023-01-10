@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <>
       <div className='PageTitle'>
-        <h1>Future projects page from Martin101TO</h1>
+        <h1>Projects</h1>
       </div>
       <div id='project-holder'>
         <Project title="Tweepy-Martin" content="This project uses Tweepy and the Twitter API to pull tweets for setiment analysis."/>

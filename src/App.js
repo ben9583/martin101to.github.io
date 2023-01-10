@@ -13,18 +13,20 @@ import Copyright from './components/copyright'
 
 function App () {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <Navbar />
-      <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/projects' element={<Projects/>} />
-        <Route path='/contact' element={<Contact/>} />
-        <Route path='/blog' element={<Blog/>} />
-        <Route path='/toolbox' element={<Toolbox/>} />
-      </Routes>
-      <Copyright />
-    </Router>
+    <div className='root'>
+      <Router basename={process.env.PUBLIC_URL}>
+        <Navbar />
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route path='/about' element={<About/>} />
+          <Route path='/projects' element={<Projects/>} />
+          <Route path='/contact' element={<Contact/>} />
+          <Route path='/blog' element={<Blog/>} />
+          <Route path='/toolbox' element={<Toolbox/>} />
+        </Routes>
+        <Copyright />
+      </Router>
+    </div>
   )
 }
 

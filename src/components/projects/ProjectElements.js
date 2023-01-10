@@ -5,5 +5,8 @@ export const Proj = styled.div`
   height: 500px;
   width: 375px;
   margin: 2vw;
-  float: left;
+  padding: 20px;
+  display: flex;
+  align-items: top;
+  justify-content: center;
 `

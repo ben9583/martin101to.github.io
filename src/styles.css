@@ -1,6 +1,6 @@
 a {
 	margin: 5px;
-	color: red;
+	color: #E70000;
 }
 
 p {
@@ -8,12 +8,18 @@ p {
 	text-decoration: none;
 }
 
+body {
+    margin: 0;
+    background-color: #FFFDEF;
+}
+
 /* Section below contains the formatting for specific classNames*/
 .PageTitle {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #EB1D36;
 	margin-top: 2vw;
 }
 
@@ -29,15 +35,13 @@ p {
     font-weight: bold;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: red;
-    align-items: center;
-
+    color: #E70000;
 }
 
 .ProjectContent{
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: red;
+    color: #E70000;
 }
 
 /* Section below contains the formatting for specific ids */
@@ -60,7 +64,7 @@ p {
 #brief {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
-    color: red;
+    color: #E70000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,11 +73,11 @@ p {
 
 #links {
 	font-size: 30px;
+    color: #F1F1F1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
-	
 }
 
 #project-holder {

@@ -24,6 +24,22 @@ p {
     margin-top: 5vw;
 }
 
+.ProjectTitle{
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    align-items: center;
+
+}
+
+.ProjectContent{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+}
+
 /* Section below contains the formatting for specific ids */
 #kevin-img {
     height: 300px;

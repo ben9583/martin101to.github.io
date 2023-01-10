@@ -1,12 +1,19 @@
 import React from 'react'
-import { Proj, ProjectContent } from './ProjectElements'
+import PropTypes from 'prop-types'
+import { Proj } from './ProjectElements'
 
-function Project () {
+function Project (props) {
   return (
     <Proj>
-      <ProjectContent/>
+      <div className='ProjectTitle'> {props.title} </div>
+      <div className='ProjectContent'> {props.content} </div>
     </Proj>
   )
+}
+
+Project.propTypes = {
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
 }
 
 export default Project

@@ -92,3 +92,18 @@ body {
 	width: auto;
 	height: 100%;
 }
+
+#about-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about-me {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: #000000;
+    width: 75vw;
+    
+}

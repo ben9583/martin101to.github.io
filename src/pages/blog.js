@@ -2,10 +2,13 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div className='PageTitle'>
-      <h1>
-        Future blog page for Martin101TO
-      </h1>
+    <div id="blog-page">
+      <div className='PageTitle'>
+        Posts
+      </div>
+      <div id="blog-posts">
+      
+      </div>
     </div>
   )
 }
